@@ -1,0 +1,9 @@
+.cards-list {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .cards-list {
+    flex-direction: column-reverse;
+  }
+}
