@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.shakuro.twa_demo_app",
+            "sha256_cert_fingerprints": [
+                "66:E3:99:86:D9:82:72:34:CD:24:82:16:67:19:29:77:A7:22:87:1A:88:4F:95:EA:D3:20:C4:37:85:9E:93:47"
+            ]
+        }
+    }
+]

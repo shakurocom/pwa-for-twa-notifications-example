@@ -1,0 +1,23 @@
+.send {
+    max-width: 400px;
+    margin: 0px 16px 0px 16px;
+    padding: 16px;
+}
+
+.send__response {
+    max-width: 300px;
+    overflow-x: auto;
+    margin-bottom: 16px;
+}
+
+.send__controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+    .send {
+        margin: 0;
+    }
+}
