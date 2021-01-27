@@ -23,7 +23,7 @@ export const SendNotification = ({ token }: { token: string | undefined }) => {
       sendNotification({
         token,
         ...data,
-        url: `${process.env.APP_URL}/notification-page`,
+        url: `${process.env.NEXT_PUBLIC_APP_URL}/notification-page`,
       })
         .then(({ data }) => setSuccess(data))
         .catch(setError);

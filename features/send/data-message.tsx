@@ -24,8 +24,8 @@ export const SendDataMessage = ({ token }: { token: string | undefined }) => {
       sendDataMessage({
         token,
         ...data,
-        url: `${process.env.APP_URL}/notification-page`,
-        action_url: `${process.env.APP_URL}/action-page${qs.stringify(
+        url: `${process.env.NEXT_PUBLIC_APP_URL}/notification-page`,
+        action_url: `${process.env.NEXT_PUBLIC_APP_URL}/action-page${qs.stringify(
           { payload: data.payload },
           { addQueryPrefix: true }
         )}`,
