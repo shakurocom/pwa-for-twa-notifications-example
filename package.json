@@ -10,7 +10,6 @@
   "dependencies": {
     "@types/qs": "^6.9.5",
     "axios": "^0.21.1",
-    "dotenv": "^8.2.0",
     "next": "10.0.5",
     "next-pwa": "^5.0.4",
     "qs": "^6.9.6",

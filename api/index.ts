@@ -2,7 +2,7 @@ import Axios from "axios";
 
 export const apiInstance = Axios.create({
   headers: {
-    Authorization: `key=${process.env.FCM_API_KEY}`,
+    Authorization: `key=${process.env.NEXT_PUBLIC_FCM_API_KEY}`,
   },
 });
 
