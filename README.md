@@ -12,4 +12,8 @@ The PWA application receives a token from query params (if it is not there, then
 - [Next-PWA](https://github.com/shadowwalker/next-pwa).
 - [Axios](https://github.com/axios/axios).
 
-You can learn more from this [article](https://shakuro.com/blog).
+## Give it a try and reach us
+
+Take a look at our <a href="https://shakuro.com/services/web-dev/?utm_source=github&utm_medium=repository&utm_campaign=pwa-for-twa">web development services</a>
+
+If you need professional assistance with your mobile or web project, feel free to <a href="https://shakuro.com/get-in-touch/?utm_source=github&utm_medium=repository&utm_campaign=pwa-for-twa">contact our team</a>
